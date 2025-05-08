@@ -1,7 +1,72 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container .row.border-bottom.bg-light .row {
+  font-size: 12px;
+}
+.container .row .col {
+  font-size: 15px;
+}
+.container .row.border-bottom.bg-white .row .col-lg-1 {
+  font-size: 12px;
+}
+.container .row.border-bottom.bg-white .row .col-lg-2 {
+  font-size: 12px;
+}
+.container .row.border-bottom.bg-white .row .col .border.rounded-pill.border-white.p-10 {
+  color: rgb(249, 123, 32);
+  background-color: rgb(255, 245, 236);
+}
+.container .row.my-4 .row .col .col {
+  size: 100px;
+  border: 1px solid rgb(186, 179, 179);
+}
+
+.position-sticky.top-0.z-1.w-100 .navbar.navbar-expand-lg.bg-light-subtle .container-fluid .collapse.navbar-collapse .navbar-nav.me-auto.mb-2.mb-lg-0 .nav-item .border.rounded-pill.border-white.p-10 {
+  color: rgb(249, 123, 32);
+  background-color: rgb(255, 245, 236);
+}
+
+.container-fluid.border-top .row.my-4.justify-content-between .col-lg-2 .text-center.border.text-body-tertiary.rounded {
+  font-size: 20px;
+}
+.container-fluid.border-top .row.my-4 {
+  font-size: 13px;
+}
+.container-fluid.border-top .row .col .nnn {
+  font-size: 12px;
+}
+.container-fluid.border-top .row.my-4 .col-lg-3 .row .col-lg-3 {
+  text-align: center;
+}
+.container-fluid.border-top .momo .row.mb-3.border-top.justify-content-between {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.container-fluid.border-top .momo .row.mb-3.border-top.justify-content-between .col-lg-7 .text-body-tertiary {
+  color: aquamarine;
+  padding: 15px;
+  width: 85%;
+  height: 90px;
+  margin: 20px;
+  overflow: hidden;
+}
+.container-fluid.border-top .momo .row.mb-3.border-top.justify-content-between .col-lg-7 .text-body-tertiary:hover {
+  overflow: unset;
+  height: 100%;
+}
+
+.row.rounded-3.mb-3 {
+  background-color: rgba(53, 53, 94, 0.877);
+}
+
+.pishi .my-4 .col.border-top {
+  font-size: 12px;
+}
+
+.border-bottom.bg-white .row .col-lg-1.border-end .text-secondary.fafa-bars.nav-link.dropdown-toggle :hover {
+  background-color: aquamarine;
+}
+.container .row.vh-100.justify-content-between.align-items-center .col .card .card-body .qqq {
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
