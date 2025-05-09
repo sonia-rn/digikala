@@ -71,7 +71,9 @@
             }
         }
     }
-
+.row.justify-content-start{
+    font-size: 13px;
+}
     .row.my-4 {
         font-size: 13px;
     }
@@ -127,6 +129,11 @@
 
 }
 
+.container-fluid.border-top{
+    .row.d-flex.align-content-center.justify-content-center.mx-2.my-3{
+        background-color: rgba(53, 53, 94, 0.877);
+    }
+}
 
 
 .pishi {
